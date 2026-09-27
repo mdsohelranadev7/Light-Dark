@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.bod {
+
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 150px;
+    height: 35px;
+    width: 80px;
+    background: gray;
+    border-radius: 10px;
+    padding: 8px;
+    position: relative;
+
+}
+
+.round {
+    background: white;
+    /* padding: 5px 20px; */
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left:2px;
+    transform: translateY(-50%);
+    transition:  0.3s;
+    
+}
+
+.round.actives{
+    left: 42px;
+}
